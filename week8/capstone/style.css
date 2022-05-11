@@ -1,0 +1,60 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 120px 200px 1fr;
+}
+#headFlex>h1 {
+    font-size: 40px;
+    font-family: 'Radio Canada', sans-serif;
+}
+#headFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#listFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#toDo>li>h2 {
+    font-size: 30px;
+    font-family: 'Radio Canada', sans-serif;
+}
+#toDo>li>p {
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+}
+#inputGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 45px);
+}
+.formLabel {
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Radio Canada', sans-serif;
+}
+#buttonFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
